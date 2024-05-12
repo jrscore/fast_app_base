@@ -1,16 +1,15 @@
-# fast_app_base
+# coredex_pms
 
 A new Flutter project.
 
-## Getting Started
+## CustomScrollVivew
+	- CSV -> sliver -> sliverAppbar, sliverList, sliverGrid, 
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Flex
+	- Flexbox : Column, Row, Flex => expanded는 flexbox안에서 사용가능
+	- exp
+	// ### COLUM -> EXPANDED -> LISTVIEW
+	// ### SCSV -> column
+	// ### SliverList

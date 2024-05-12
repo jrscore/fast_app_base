@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1031096810375",
+    "firebase_url": "https://cdx-pms-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "cdx-pms",
+    "storage_bucket": "cdx-pms.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1031096810375:android:0e1f51dab9e64a75c83122",
+        "android_client_info": {
+          "package_name": "com.example.coredex_pms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1031096810375-7lfq8k09eghkj8umfts14ha4v25r41h6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGdUEzVPEhjXWuMC60hIvX3vHB2Od6s9c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1031096810375-7lfq8k09eghkj8umfts14ha4v25r41h6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

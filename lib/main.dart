@@ -1,18 +1,28 @@
+import 'package:coredex_pms/core/prefs/_app_shared_prefs.dart';
+import 'package:coredex_pms/firebase_options.dart';
 import 'package:easy_localization/easy_localization.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:timeago/timeago.dart' as timeago;
 
-import 'app.dart';
-import 'common/data/preference/app_preferences.dart';
+import 'app/app.dart';
+import 'core/prefs/app_prefs.dart';
+ 
+
 
 void main() async {
-  WidgetsFlutterBinding.ensureInitialized();
-  await EasyLocalization.ensureInitialized();
-  await AppPreferences.init();
+	// ## Flutter셋팅
+	WidgetsFlutterBinding.ensureInitialized();
+	
+	await AppPreferences.init();				// Prefs 초기화
+	await SampleSharedPrefs.init();			// Shared Prefs 초기화
+	await EasyLocalization.ensureInitialized();
+	
+	await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
+			// .then((value) => Get.put(AuthRepository()));
 
-  runApp(EasyLocalization(
-      supportedLocales: const [Locale('en'), Locale('ko')],
-      fallbackLocale: const Locale('en'),
-      path: 'assets/translations',
-      useOnlyLangCode: true,
-      child: const App()));
+	
+	timeago.setLocaleMessages('ko', timeago.KoMessages());
+
+	runApp(App());
 }

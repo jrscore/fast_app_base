@@ -1,0 +1,97 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "mro",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "safety",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "mro",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "site",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "corp",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "zone",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "mro",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "site",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "safety",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "monit",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "site",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "safety",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "mro",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "site",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "safety",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "service",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "site",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "safety",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "zone",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "mro",
+          "order": "ASCENDING"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}
